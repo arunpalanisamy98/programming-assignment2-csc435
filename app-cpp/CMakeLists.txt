@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.22)
+
+project(file-retrieval-engine
+        VERSION 1.0
+        DESCRIPTION "C++ File Retrieval Engine Application"
+        LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+add_executable(file-retrieval-engine
+               src/file-retrieval-engine.cpp
+               src/ApplicationInterface.cpp
+               src/RetrievalEngine.cpp
+               src/IndexStore.cpp)
+
+target_include_directories(file-retrieval-engine PUBLIC include)
