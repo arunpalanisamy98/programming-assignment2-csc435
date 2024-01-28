@@ -10,8 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(file-retrieval-engine
                src/file-retrieval-engine.cpp
-               src/ApplicationInterface.cpp
-               src/RetrievalEngine.cpp
+               src/AppInterface.cpp
+               src/ProcessingEngine.cpp
                src/IndexStore.cpp)
 
 target_include_directories(file-retrieval-engine PUBLIC include)

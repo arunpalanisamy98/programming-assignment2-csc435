@@ -1,9 +1,9 @@
 package csc435.app;
 
-public class RetrievalEngine {
+public class ProcessingEngine {
     private IndexStore store;
 
-    public RetrievalEngine(IndexStore store) {
+    public ProcessingEngine(IndexStore store) {
         this.store = store;
         
         // TO-DO implement constructor

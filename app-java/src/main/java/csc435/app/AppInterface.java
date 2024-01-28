@@ -3,10 +3,10 @@ package csc435.app;
 import java.lang.System;
 import java.util.Scanner;
 
-public class ApplicationInterface {
-    private RetrievalEngine engine;
+public class AppInterface {
+    private ProcessingEngine engine;
 
-    public ApplicationInterface(RetrievalEngine engine) {
+    public AppInterface(ProcessingEngine engine) {
         this.engine = engine;
 
         // TO-DO implement constructor

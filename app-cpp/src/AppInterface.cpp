@@ -1,13 +1,13 @@
-#include "ApplicationInterface.hpp"
+#include "AppInterface.hpp"
 
 #include <iostream>
 #include <string>
 
-ApplicationInterface::ApplicationInterface(std::shared_ptr<RetrievalEngine> engine) : engine(engine) {
+AppInterface::AppInterface(std::shared_ptr<ProcessingEngine> engine) : engine(engine) {
     // TO-DO implement constructor
 }
 
-void ApplicationInterface::readCommands() {
+void AppInterface::readCommands() {
     // TO-DO implement the read commands method
     std::string command;
     

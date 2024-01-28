@@ -5,8 +5,8 @@ public class FileRetrievalEngine
     public static void main( String[] args )
     {
         IndexStore store = new IndexStore();
-        RetrievalEngine engine = new RetrievalEngine(store);
-        ApplicationInterface appInterface = new ApplicationInterface(engine);
+        ProcessingEngine engine = new ProcessingEngine(store);
+        AppInterface appInterface = new AppInterface(engine);
 
         appInterface.readCommands();
     }

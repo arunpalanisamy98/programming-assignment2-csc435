@@ -1,20 +1,20 @@
-#ifndef RETRIEVAL_ENGINE_H
-#define RETRIEVAL_ENGINE_H
+#ifndef PROCESSING_ENGINE_H
+#define PROCESSING_ENGINE_H
 
 #include <memory>
 
 #include "IndexStore.hpp"
 
-class RetrievalEngine {
+class ProcessingEngine {
     // TO-DO Keep track of index and search workers
     std::shared_ptr<IndexStore> store;
 
     public:
         // constructor
-        RetrievalEngine(std::shared_ptr<IndexStore> store);
+        ProcessingEngine(std::shared_ptr<IndexStore> store);
 
         // default virtual destructor
-        virtual ~RetrievalEngine() = default;
+        virtual ~ProcessingEngine() = default;
 
         // TO-DO re-declare index files and search files methods
         void indexFiles();
