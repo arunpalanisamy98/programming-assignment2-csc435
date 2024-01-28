@@ -1,7 +1,7 @@
 ## CSC435 Programming Assignment 2 (Winter 2024)
 **Jarvis College of Computing and Digital Media - DePaul University**
 
-**Student**: TO-DO-write-student-name (TO-DO-write-email-address)
+**Student**: TO-DO-write-student-name (TO-DO-write-email-address)  
 **Solution programming language**: TO-DO-write-solution-programming-language (Java or C++)
 
 ### Requirements
