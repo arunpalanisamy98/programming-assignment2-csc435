@@ -1,12 +1,16 @@
 package csc435.app;
 
+import java.util.Map;
+
 public class IndexStore {
+    static Map<String,Map<String,Integer>> index;
     public IndexStore() {
-        // TO-DO implement constructor
+
     }
 
-    public void insertIndex() {
-        // TO-DO implement index insert method
+    public void insertIndex(Map<String, Map<String,Integer>> newIndex) {
+        //add the new index to the existing index
+        index.putAll(newIndex);
     }
 
     public void lookupIndex() {

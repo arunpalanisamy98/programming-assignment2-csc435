@@ -1,3 +1,4 @@
+
 package csc435.app;
 
 import java.lang.System;
@@ -31,7 +32,12 @@ public class AppInterface {
             
             // if the command begins with index, index the files from the specified directory
             if (command.length() >= 5 && command.substring(0, 5).compareTo("index") == 0) {
-                // TO-DO implement index operation
+                String path = command.substring(5,command.length()).trim();
+                try {
+                    engine.indexFiles(path);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 continue;
             }
 
