@@ -40,6 +40,7 @@ mvn exec:java -Dexec.mainClass="csc435.app.FileRetrievalEngine"
 
 ## indexing
 ```bash
+number of threards needs to be entered as the last $arg in the commands else, it will give a stdout "Invalid command"
 >index /path/to/dataset $numberOfThreads
 ```
 
