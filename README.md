@@ -21,7 +21,7 @@ chmod 777 /path/to/dataset
 
 ## git clone or download the repository
 ```bash
-git clone git@github.com:neurobazaar/pa1-arunpalanisamy98.git
+git clone git@github.com:neurobazaar/csc435-pa2-arunpalanisamy98.git
 ```
 
 ## compilation
